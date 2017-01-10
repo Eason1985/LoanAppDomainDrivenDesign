@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<mapping>
+	  	<class-a>com.ideature.loanapp.domain.Loan</class-a>
+  		<class-b>com.ideature.loanapp.dto.FundingRequestDTO</class-b>
+
+		<!--
+  	  	<field>
+    		<a>loanNumber</a>
+      		<b>loanNumber</b>
+    	</field>
+    	-->
+
+		<!--
+  	  	<field>
+    		<a>loanStatus</a>
+      		<b>mortgageStatus</b>
+    	</field>
+
+  	  	<field>
+    		<a>mortgageProduct.productName</a>
+      		<b>productName</b>
+    	</field>
+    	-->
+
+	</mapping>
+
+</mappings>
